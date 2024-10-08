@@ -1,14 +1,13 @@
 from typing import Optional
 
 from wildlife_tracker.migration_management.migration import Migration
-from wildlife_tracker.migration_path_management.habitat import Migration_path
+from wildlife_tracker.migration_path_management.habitat import MigrationPath
 
 class MigrationManager:
 
     def __init__(self) -> None: 
         migration: dict[int, Migration] = {}
-        migration_path: dict[int, Migration_path] = {}
-    pass
+        migration_path: dict[int, Migration_Path] = {}
 
 def cancel_migration(migration_id: int) -> None:
     pass
