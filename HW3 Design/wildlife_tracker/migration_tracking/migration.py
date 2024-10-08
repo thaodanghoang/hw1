@@ -1,7 +1,7 @@
 from typing import Any
 
-from wildlife_tracker.Migration_management.Migration import Migration
-from wildlife_tracker.Migration_management.Migration_Path import MigrationPath
+from wildlife_tracker.migration_tracking.migration import Migration
+from wildlife_tracker.migration_tracking.migration_path import MigrationPath
 
 class Migration:
 
@@ -18,7 +18,6 @@ class Migration:
         self.start_date = start_date
         self.migration_path = MigrationPath 
         self.status = status
-        pass
 
 def update_migration_details(migration_id: int, **kwargs: Any) -> None:
     pass

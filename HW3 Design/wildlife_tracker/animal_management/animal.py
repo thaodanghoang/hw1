@@ -1,5 +1,6 @@
 from typing import Any, Optional
 
+
 class Animal:
 
      def __init__(self,
@@ -11,14 +12,10 @@ class Animal:
         self.species = species
         self.age = age or []
         self.health_status = health_status or []
-        pass
 
 def get_animal_details(animal_id) -> dict[str, Any]:
     pass
 
 def update_animal_details(animal_id: int, **kwargs: Any) -> None:
     pass
-
-
-
 
