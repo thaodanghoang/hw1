@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, Any
 
 from wildlife_tracker.migration_tracking.migration import Migration
 from wildlife_tracker.migration_tracking.migration_path import MigrationPath
