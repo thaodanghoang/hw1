@@ -1,6 +1,5 @@
 from typing import Any, Optional
 
-
 class Animal:
 
      def __init__(self,
